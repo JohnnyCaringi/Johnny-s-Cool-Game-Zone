@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Maven+Pro&display=swap');
 
 body{
-    background-image:url('https://www.wowpatterns.com/assets/files/resource_images/festival-seamless-pattern.png');
+    background-image:url(/media/background.png);
 }
 
 header{
-    background-color: #f24074;
+    background-color: #03688d;
     padding: 10px;
+    opacity: 0.5;
 }
 
 footer{
@@ -45,5 +46,9 @@ p{
 
 a{
     color: #f24074;
-    hover:
+}
+
+#logo{
+    height: 80px;
+    opacity: 1;
 }
