@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Maven+Pro&display=swap');
 
 html{
-    width: 1000px;
+    width: 1500px;
     height: 1000px;
   }
 
@@ -30,12 +30,17 @@ h2{
     background-color: #008ebd;
 }
 
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 h4{
     font-family: 'Josefin Sans', sans-serif;
 }
 
 h5{
     font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 input[type=submit]{
@@ -59,4 +64,9 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#memeSunglasses{
+    height: 150px;
+    cursor: grab;
 }

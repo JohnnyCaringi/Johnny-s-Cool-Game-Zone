@@ -38,6 +38,11 @@ $( document ).ready(function() {
     /* Spirit Animal Finder */
     $("#submit").click(function(){
         let name = $('#name').val();
+
+        if(!name){
+            $("#animalTitle").text("Please enter a Name");
+        }
+
         let animal = spiritFinder(name);
         console.log("Spirit Number is " + animal);
 
