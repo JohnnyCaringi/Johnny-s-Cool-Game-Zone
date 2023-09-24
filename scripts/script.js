@@ -22,7 +22,20 @@ function spiritFinder(name){
 }
 
 $( document ).ready(function() {
+    /* Put the Sunglasses on The Doge™ */
+    $('#memeSunglasses').click(function(){
+        console.log("position:, ", $("#memeSunglasses").position())
+      }); 
 
+    $("#memeSunglasses").draggable({ stop: function(){
+        if($("#memeSunglasses").position().left > 175 && $("#memeSunglasses").position().left < 250  && $("#memeSunglasses").position().top > 340 && $("#memeSunglasses").position().top < 410){
+            console.log("doge");
+          $("#wowText").text("WOW! The Doge™ is looking pretty cool!");
+      }
+    }
+     });
+
+    /* Spirit Animal Finder */
     $("#submit").click(function(){
         let name = $('#name').val();
         let animal = spiritFinder(name);

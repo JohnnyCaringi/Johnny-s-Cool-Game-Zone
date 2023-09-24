@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Maven+Pro&display=swap');
 
+html{
+    width: 1000px;
+    height: 1000px;
+  }
+
 body{
     background-image:url(/media/background.png);
 }
 
 header{
-    background-color: #03688d;
+    background-color: #008ebd;
     padding: 10px;
-    opacity: 0.5;
 }
 
 footer{
-    background-color: #fdfaf1;
+    text-align: center;
 }
 
 h1{
@@ -21,34 +25,38 @@ h1{
 }
 
 h2{
-    color:#6a398a;
+    color: #ecce41;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #fdfaf1;
+    background-color: #008ebd;
 }
 
 h4{
-    color:#3f2153;
     font-family: 'Josefin Sans', sans-serif;
 }
 
+h5{
+    font-size: 15px;
+}
+
 input[type=submit]{
-    background-color:#f24074;
-    color: white;
+    background-color:#ecce41;
+    color: black;
     border-radius: 10px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
 p{
-    color:#6a398a;
     font-family: 'Josefin Sans', sans-serif;
-    background-color: #fdfaf1;
+    background-color: #008ebd;
 }
 
 a{
-    color: #f24074;
+    color: #ecce41;
 }
 
 #logo{
     height: 80px;
-    opacity: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
