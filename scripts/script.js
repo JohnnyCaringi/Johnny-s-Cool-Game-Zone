@@ -41,6 +41,7 @@ $( document ).ready(function() {
 
         if(!name){
             $("#animalTitle").text("Please enter a Name");
+            $("#animalDesc").text("");
         }
 
         let animal = spiritFinder(name);
